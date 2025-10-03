@@ -1,2 +1,3 @@
-DELETE FROM siswa
-WHERE id IN (6, 7, 8, 9, 10);
+UPDATE siswa
+SET jurusan = 'Bahasa'
+WHERE nama = 'Dinta';
